@@ -3,8 +3,29 @@
     <title>FLASK</title>
   </head>
   <body>
-    <h1>Welcome to Flask APP</h1>
-    <p>demo flask app</p>
+    <form action="predict" method="post">
+      <input
+        type="number"
+        name="experience"
+        placeholder="experience"
+        required="required"
+      />
+      <input
+        type="number"
+        name="test_score"
+        placeholder="testScore"
+        required="required"
+      />
+      <input
+        type="number"
+        name="interview_score"
+        placeholder="interviewScore"
+        required="required"
+      />
+      <button type="submit">Predict</button>
+    </form>
+
+    {{prediction_text}}
   </body>
   <!-- css path: statics/abc.css -->
 </html>

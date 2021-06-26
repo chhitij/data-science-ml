@@ -21,3 +21,14 @@
 // In Falsk is best for micro app personal
 
 // Django is for production app industrial
+
+- for deployment over heuruku
+  // Add Procfile - > web:gunicorn app:main
+
+  - web: guincorn == > networking stuff
+  - app:main --> pthon main.py Pass (platform depended)
+
+  install gunicorn in your env
+  create a requirement .txt file
+  create a file called Procfile
+  upload all files over github
